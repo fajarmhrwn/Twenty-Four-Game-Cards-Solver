@@ -53,7 +53,7 @@
         {
             cout << inputArr[i] << " ";
         }
-        high_resolution_clock::time_point t1 = high_resolution_clock::now();
+        high_resolution_clock::time_point start_time = high_resolution_clock::now();
         permutasiKartu(4,0,result,inputArr);
         kombinasiOperator(resultOp);
         int n = 0;
@@ -72,7 +72,7 @@
             }
         }
         hapusSama(s,n);
-        high_resolution_clock::time_point t2 = high_resolution_clock::now();
+        high_resolution_clock::time_point final_time = high_resolution_clock::now();
         cout << endl <<"=========="<< endl;
         cout << n << " solusi ditemukan" << endl;
         cout <<"=========="<< endl;
@@ -82,7 +82,7 @@
             cout << s[i] << endl;
         }
         cout <<"=========="<< endl;
-        duration<double> time_span = duration_cast< duration<double>>(t2 - t1);
+        duration<double> time_span = duration_cast< duration<double> >(final_time - start_time);
         cout << "Waktu yang dibutuhkan: " << time_span.count() << " detik" << endl;
         bool status = false;
         do{

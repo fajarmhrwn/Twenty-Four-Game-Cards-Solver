@@ -111,7 +111,7 @@ bool checkValid(string input)
     {
         if (chartoint(temp) < 0)
         {
-            cout << "Masukkan Huruf dan Angka Tidak Valid" << endl;
+            cout << "Masukkan Huruf atau Angka Tidak Valid" << endl;
             return false;
         }
         n++;
