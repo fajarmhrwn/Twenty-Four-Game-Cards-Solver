@@ -1,85 +1,76 @@
-  # Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+  # Tucil1_13521080
+> Twenty Four Game Solver using Brute force Algorithm.
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+Twenty four game card is a game that uses poker cards to guess how a combination of mathematics operation can make a 24. Player just take 4 cards and try to guess it. Brute Force Algorithm produces all of the combination of mathematics operation that require 24.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- std.lib
+- sstream
+- cstdlib
+- vector
+- iostream
+- fstream
+- string
+- ctime
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Input file and user
+- Random input
+- Save file
+- Show all the possibility that have a result 24
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+1.	Input Pengguna Keyboard (Angka Semua)
+  ![picture1](./img/Picture1.png)
+2. Input Pengguna Keyboard (Huruf Semua)
+  ![picture2](./img/Picture2.png)
+3. Validasi Karakter
+  ![picture3](./img/Picture3.png)
+4. Validasi Jumlah
+  ![picture4](./img/Picture4.png)
+5. Validasi Input Kosong
+  ![picture5](./img/Picture5.png)
+6. Random Input
+  ![picture6](./img/Picture6.png)
+  ![picture7](./img/Picture7.png)
+  ![picture8](./img/Picture8.png)
+7. Save File
+  ![picture9](./img/Picture9.png)
+  ![picture10](./img/Picture10.png)
+
 <!-- If you have screenshots you'd like to share, include them here. -->
-
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
-
-
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
+1. Git clone or download zip file 
+2. Open Folder
+3. `cd bin`
+4. `make run`
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This Projects is intended to fulfill one of theassignments of the IF2211 Algorithmic Strategy  Course in Semester II of the 2022/2023 Academic Year
+- Many thanks to all lab asisstant
+- Many thanks to all algorithmic strategy lecturer
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+This Project was created by Fajar Maulana H / 13521080
 
 
 <!-- Optional -->
