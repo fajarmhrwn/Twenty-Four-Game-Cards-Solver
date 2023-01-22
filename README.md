@@ -1,5 +1,5 @@
   # Tucil1_13521080
-> Twenty Four Game Solver using Brute force Algorithm.
+> Twenty Four Game Cars Solver using Brute force Algorithm.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,7 +8,7 @@
 * [Screenshots](#screenshots)
 * [Usage](#usage)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+* [Author](#Author)
 <!-- * [License](#license) -->
 
 
@@ -69,7 +69,7 @@ Give credit here.
 - Many thanks to all algorithmic strategy lecturer
 
 
-## Contact
+## Author
 This Project was created by Fajar Maulana H / 13521080
 
 
