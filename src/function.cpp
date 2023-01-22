@@ -402,4 +402,3 @@ void saveAnswer(vector <string> s,string namaFile = "answer.txt", int n = 0){
     }
     myfile.close();
 }
-
