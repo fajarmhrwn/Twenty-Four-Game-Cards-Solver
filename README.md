@@ -64,7 +64,7 @@ Twenty four game card is a game that uses poker cards to guess how a combination
 
 ## Acknowledgements
 Give credit here.
-- This Projects is intended to fulfill one of theassignments of the IF2211 Algorithmic Strategy  Course in Semester II of the 2022/2023 Academic Year
+- This Projects is intended to fulfill one of the assignments of the IF2211 Algorithmic Strategy  Course in Semester II of the 2022/2023 Academic Year
 - Many thanks to all lab asisstant
 - Many thanks to all algorithmic strategy lecturer
 
