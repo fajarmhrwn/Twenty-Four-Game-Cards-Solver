@@ -100,7 +100,7 @@ bool checkValid(string input)
     //check if input is empty
     if (input.empty())
     {
-        cout << "Input is empty" << endl;
+        cout << "Masukan tidak sesuai, Masukan Kosong" << endl;
         return false;
     }
     //check if each card is valid
@@ -111,7 +111,7 @@ bool checkValid(string input)
     {
         if (chartoint(temp) < 0)
         {
-            cout << "Masukkan Huruf atau Angka Tidak Valid" << endl;
+            cout << "Masukan tidak sesuai, Huruf atau Angka Tidak Valid" << endl;
             return false;
         }
         n++;
@@ -119,7 +119,7 @@ bool checkValid(string input)
     //check if input is only have 4 cards
     if (n != 4)
     {
-        cout << "Input is not 4 cards" << endl;
+        cout << "Masukan tidak sesuai, Masukan Tidak Tepat 4 Kartu" << endl;
         return false;
     }
     return true;

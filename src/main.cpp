@@ -86,7 +86,7 @@
         cout << "Waktu yang dibutuhkan: " << time_span.count() << " detik" << endl;
         bool status = false;
         do{
-            cout << "Simpan ke file [Y/N]: ";
+            cout << "Apakah ingin menyimpan solusi [Y/N]: ";
             cin >> caseNum;
             if(caseNum == "Y" || caseNum == "N"){
                 status = true;
