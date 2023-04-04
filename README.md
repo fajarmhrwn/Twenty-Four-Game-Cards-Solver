@@ -1,4 +1,4 @@
-  # Tucil1_13521080
+  # Twenty Four Game Cards Solver
 > Twenty Four Game Cars Solver using Brute force Algorithm.
 
 ## Table of Contents
